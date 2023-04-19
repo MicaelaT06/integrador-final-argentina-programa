@@ -57,7 +57,7 @@ div .navbar-toggler{
 /* BANNER  */
 
 .banner-img{
-    background-image: url("./assets/imagenes/5509862.jpg");
+    background-image: url("assets/imagenes/5509862.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
