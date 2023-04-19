@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
+
+/* MENÚ */
+
+nav {
+    background-color: #ffffff17;
+}
+
+.text {
+    color: #ffffff;
+}
+
+.nav-logo{
+    width: 63px;
+}
+
+div .nav-link{
+    color: #4fdbd4;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+}
+
+div .nav-link:hover{
+    font-weight: 700;
+    color: rgb(62, 26, 148);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+div .cta-link{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+div .start{
+    background-color: rgb(188, 101, 196);
+    border: none;
+    width: 90px;
+    color: #ffffff;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+div .start:hover{
+    background-color: #4fe4dc;
+    color: #ffffff;
+}
+
+div .navbar-toggler{
+    border: none
+}
+
+/* BANNER  */
+
+.banner-img{
+    background-image: url("../assets/imagenes/5509862.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+div .text{
+    font-family:'Montserrat', sans-serif;
+    color: #ffffff;
+}
+
+/* COMBOS MD */
+.combos {
+    font-family:'Montserrat', sans-serif;
+}
+
+div .illustration {
+    width: 14rem;
+}
+
+/* FORMULARIO DE COTIZACION */
+
+.titulo{
+    font-family:'Montserrat', sans-serif;
+}
+
+form .cotizacion-form{
+    font-family:'Montserrat', sans-serif;
+}
+
+div .ticketsValue{
+    background: #e6dbf3;
+}
+
+div .cotizacion-link{
+    text-decoration: none;
+    color: #ffffff;
+    margin: 25px;
+}
+
+div .cotizacion-btn {
+    background-color: #4f2eaa;
+    border: none;
+}
+
+div .cotizacion-btn:hover {
+    background-color:#57e2d7;
+    border: none;
+}
+
+div .link-condiciones{
+    text-decoration: none;
+    color:#8a4bdd;
+    font-weight: 500;
+}
+
+div .msj-exito {
+    background-color: #4fdbd4ab;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 8px;
+}
+
+
+/* QUIENES SOMOS  */
+
+div .info-api{
+    color: #8a4bdd;
+}
+
+div .card{
+    border: none;
+}
+
+.about{
+    font-family: 'Montserrat', sans-serif;
+    height: 543px;
+}
+
+.about .brand p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.about .team .card-body {
+    padding: 0;
+}
+
+.about .team .card-img-top {
+    height: auto;
+    margin-right: 20px;
+}
+
+.about .team p {
+    font-size: 16px;
+}
+
+div .meet{
+    margin: 9px;
+}
+
+.nosotros{
+    padding: 42px;
+}
+
+/* CALL TO ACTION */
+
+.cta-div{
+    height: 412px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+div .cta-btn{
+    margin: 31px;
+    width: 210px;
+    background-color: rgb(240, 194, 247);
+    border-color: rgb(240, 194, 247);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    padding: 2px;
+    padding-right: 40px;
+}
+
+div .cta-btn:hover{
+    border-color: rgb(225, 180, 236);
+    background-color: rgb(222, 191, 230);
+    color: rgb(57, 59, 196);
+}
+
+.rocket {
+    width: 53px;
+    margin: 28px;
+    margin-left: 139px;
+}
+
+/* FORMULARIO DE CONTACTO */
+
+form {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-container {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(241, 221, 235, 0.534);
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.contact-bg {
+    background-image: url("../assets/imagenes/moonformedit.svg");
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+    height: 1392px;
+    display: flex;
+    align-items: center;
+}
+
+form .campos {
+    background-color: rgba(255, 255, 255, 0.158);
+    border: none;
+}
+
+div .mensaje{
+    padding: 21px;
+}
+
+.msj-enviado {
+    color: rgb(255 255 255);
+    font-size: 18px;
+    background-color: #38d8cbe8;
+    width: 285px;
+    padding: 8px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.form-contact {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+div .card-body {
+    background-color: rgba(255, 255, 255, 0.158);
+}
+
+form .p-contact{
+    color: #000000;
+    font-size: 16px;
+}
+
+form .button-contact{
+    background-color: #000000ea;
+    border: none;
+}
+
+form .button-contact:hover{
+    background-color: #44c5b4d3;
+}
+
+div h4{
+    color: #000000;
+}
+/* FOOTER */
+
+footer{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(17, 17, 17);
+    display: grid;
+    align-items: end;
+    height: 0px;
+}
+
+.footer{
+        background-color: #000000;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer .icon{
+    width: 30px;
+}
+
+footer .img-logo {
+    width: 86px;
+    margin: 13px 42px;
+}
+
+div .contact {
+    width: 248px;
+}
+
+footer .p-contact {
+    padding-left: 40px;
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+footer .container{
+    padding: 0px;
+}
+
+footer .p-footer{
+    font-size: 14px;
+    padding-left: 18px;
+    margin: 0px;
+}
+
+footer .button-social{
+    background-color: #18181a;
+    border: none;
+}
+
+div .logo {
+    width: 180px;
+    padding: 0px;
+}
+
+footer .uppercase {
+    font-size: 15px;
+}
+
+
+/* MEDIAS QUERY */
+
